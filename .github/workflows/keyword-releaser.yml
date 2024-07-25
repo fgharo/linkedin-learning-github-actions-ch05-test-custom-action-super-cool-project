@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: fgharo/keyword-release-action@master
+    - uses: fgharo/linkedin-learning-github-actions-ch05-custom-release-action-example@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
